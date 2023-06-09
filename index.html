@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <title>REGISTER</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="js.js"></script>
+</head>
+<body>
+    <div id="wrapper">
+        <form method="post" action="ttp://mercury.ict.swin.edu.au/it000000/formtest.php" id="form-login" >
+            <h1 class="form-heading">REGISTER FORM</h1>
+            <p class='word'>User ID</p>
+            <div class="form-group"> 
+                <i class="far fa-user" style="color: rgba(253, 73, 241, 0.8);"></i>
+                <input id="user" type="text" class="form-input" placeholder="Your Username"> 
+                <span id="sidTip">Student ID</span>
+            </div>
+            <p class='word'>Password</p>
+            <div class="form-group">
+                <i class="fas fa-key" style="color: rgba(253, 73, 241, 0.8);"></i>
+                <input type="password" class="form-input" placeholder="Password">
+                <div id="eye">
+                    <i class="far fa-eye"></i>
+                </div>
+            </div>
+            <p class='word'>Retype Password</p>
+            <div class="form-group">
+                <i class="fas fa-key" style="color: rgba(253, 73, 241, 0.8);"></i>
+                <input type="password" class="form-input" placeholder="Password">
+            </div>
+            <p class='word'>User Information</p>
+            <div class="form-group">
+                <i class="fas fa-file-signature" style="color: rgba(253, 73, 241, 0.8);"></i>
+                <input type="text" class="form-input" placeholder="Your Fullname">
+            </div>
+            <div class="radio-check">
+				<div class='word'>
+					<label>Male</label>
+					<input type="radio" name="gender" value="M" />
+                    <label>Female</label>
+					<input type="radio" name="gender" value="F" />
+				</div>
+		</div>
+            <input type="submit" value="Test Register" class="form-submit">
+        </form>
+    </div>
+    
+</body>
+
+
+</html>
